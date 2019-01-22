@@ -1,3 +1,62 @@
+
+Conversation ouverte. 5 messages. 1 message non lu.
+
+Aller au contenu
+Utiliser Gmail avec un lecteur d'écran
+
+Conversations
+
+Non lus
+ 
+1–4 sur 4
+ 
+
+Autres messages
+ 
+1–50 sur 3 731
+ 
+moi, Samir
+6
+moi
+Soutenance OC
+ - Parfait à mardi :-) La soutenance se déroulera à cette adresse : https://appear.in/mentoratOCalexandre Merci de t'y connecter avec Google Chrome
+ 
+18:11
+Doula Amari via Lin.
+Doula sent you a new message
+ - LinkedIn Alexandre Iwanesko Vous avez 1 nouveau message Vivez pleinement l'expérience de messagerie LinkedIn Doula Amari Doula Amari Chargée de recrutement/Assistante RH chez Asteria Lire le
+ 
+17:56
+Amazon.fr
+"Logitech Wireless Combo MK235..." et plus
+ - Nous avons des recommandations pour vous. Amazon.fr Amazon Prime Promotions Toutes nos catégories Bonjour Alexandre Iwanesko, Amazon a de nouvelles recommandations pour vous basées sur votre historique
+ 
+16:41
+Votre Domino's Cagn.
+Vos Pizzas à emporter à prix mini
+ - C'est le Mardi FOUUUU !!!! Pour être sûr de recevoir tous nos emails, ajoutez info@news.dominos.fr à votre carnet d'adresses. Si vous n'arrivez pas à lire cet email, essayez par ici Offres
+ 
+16:10
+Lorraine, moi
+2
+moi
+Report de session
+ - Bonjour Lorraine, Pas de soucis, J'espère que ça va aller :-) Bon courage et bonne soirée
+ 
+12:52
+moi, Bertrand
+3
+moi
+Mentorat OC
+ - Bonjour Bernard, Est ce que samedi 10h pourrait te convenir? Merci d'avance pour ton retour Le lun. 21 janv. 2019 à 23:28, Bertrand Ripoche <ripoche.bertrand@gmail.com> a écrit : Bonsoir
+ 
+21 janv.
+14,09 Go (93 %) utilisés sur 15 Go
+Gérer
+Conditions d'utilisation · Confidentialité · Règlement du programme
+Dernière activité sur le compte : Il y a 3 minutes
+Détails
+
 @font-face {
 font-family : "'roboto-bold'";
 src : url('fonts/Roboto-Bold.ttf');
@@ -208,11 +267,11 @@ display : flex;
 justify-content : center;
 }
 #titre_services {
-margin-top : 100px;
+margin-top : 10px;
 text-align : center;
 }
 #titre_services p {
-max-width : 540px;
+max-width : 600px;
 }
 hr {
 width : 200px;
@@ -220,7 +279,7 @@ display : inline-flex;
 border : 1px;
 height : 2px;
 background-image : linear-gradient(to right, rgba(217, 217, 217, 0), rgba(217, 217, 217, 1), rgba(217, 217, 217, 0));
-margin-bottom : 30px;
+margin-bottom : 10px;
 }
 hr::after {
 position : absolute;
@@ -228,7 +287,7 @@ content : "\f111";
 color : rgb(50, 150, 180);
 font-family : fontawesome;
 margin-left : 85px;
-margin-top : -17px;
+margin-top : -15px;
 border-radius : 50px;
 background-color : white;
 padding : 10px;
@@ -275,9 +334,10 @@ margin-left : 14px;
 }
 #projets {
 margin-bottom : 100px;
+background-color: rgb(245, 245, 245);
 }
 #titre_projets {
-margin-top : 100px;
+margin-top : 55px;
 text-align : center;
 position : relative;
 }
@@ -335,7 +395,7 @@ transition : transform 2s;
 }
 figure:hover .masque {
 display : block;
-opacity : 0.800000011920928955078125;
+opacity : 0.9;
 transform : translateY(-68px);
 }
 .text_img {
@@ -361,8 +421,8 @@ height : 450px;
 border : 0;
 }
 #form_contact {
-background-color : rgb(200, 200, 200);
-opacity : 0.800000011920928955078125;
+background-color : rgb(255, 255, 255);
+opacity : 1.5;
 flex-direction : column;
 top : 20px;
 width : 300px;
@@ -388,6 +448,10 @@ font-size : 1.3em;
 margin-bottom : 0;
 padding-right : 10px;
 }
+#form_contact h3{
+  text-align: left;
+}
+
 #form_contact p {
 font-size : 0.8em;
 }
@@ -402,23 +466,23 @@ background-color : rgb(50, 150, 180);
 padding : 5px 10px 5px 10px;
 }
 .bouton:hover {
-opacity : 0.800000011920928955078125;
+opacity : 0.9;
 }
 footer {
 display : flex;
 width : 100%;
 align-items : center;
 flex-direction : column;
-padding-bottom : 20px;
+padding-bottom : 40px;
 background-color : lightgray;
 }
 footer p {
-font-size : 0.8em;
+font-size : .7em;
 }
 #copyright {
 color : rgb(50, 150, 180);
 font-weight : bold;
-font-size : 1em;
+font-size : 0.8em;
 padding-top : 40px;
 }
 #reseaux_sociaux {
@@ -431,7 +495,7 @@ padding : 0 10px 0 10px;
 }
 @media screen and (min-width:1680px) {
 .projets_album {
-width : 75%;
+width : 74%;
 }
 }
 @media screen and (min-width:501px) and (max-width:1024px) {
@@ -466,6 +530,7 @@ h2 {
 font-size : 1em;
 }
 header {
+  visibility: hidden;
 flex-direction : column;
 height : auto;
 }
@@ -486,8 +551,8 @@ display : none;
 #titre_services {
 margin-top : 150px;
 text-align : center;
-padding : 0 5px;
-width : 250px;
+padding : 0 0px;
+width : 500px;
 }
 #container_services {
 flex-direction : column;
@@ -671,3 +736,5 @@ text-align : center;
   color: #FFFFFF;
   font-family: Calibri, optima, Arial, sans-serif;
 }
+webagencystyle_nasseratahanout2.css
+Affichage de CV_Winnen_Valentin.pdf en cours...
